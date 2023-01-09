@@ -1,0 +1,23 @@
+
+
+{
+  "name": "IRVING ST",
+  "short_name": "IRVING ST",
+  "description": "¡Hola!, Si estas aqui talves me conozcas o talves  no, cree este sitio  para enseñar hacking-programacion Si  te  interesa  quedate  si  no ya sabes la RESPUESTA.",
+  "icons": [
+    {
+      "src": "/assets/img/favicons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/favicons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }],
+  "start_url": "/index.html",
+  "theme_color": "#2a1e6b",
+  "background_color": "#ffffff",
+  "display": "fullscreen"
+}
+

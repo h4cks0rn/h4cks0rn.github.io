@@ -1,0 +1,242 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>IRVING ST</title>
+  <subtitle>¡Hola!, Si estas aqui talves me conozcas o talves  no, cree este sitio  para enseñar hacking-programacion Si  te  interesa  quedate  si  no ya sabes la RESPUESTA.</subtitle>
+  <updated>2023-01-09T09:55:00+00:00</updated>
+  <author>
+    <name>IRVING ST</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.1">Jekyll</generator>
+  <rights> © 2023 IRVING ST </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Injecta codigo sql en  una web ☠</title>
+    <link href="http://localhost:4000/posts/Sqli/" rel="alternate" type="text/html" title="Injecta codigo sql en  una web ☠" />
+    <published>2023-01-05T12:00:00+00:00</published>
+  
+    <updated>2023-01-05T12:00:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/Sqli/</id>
+    <content src="http://localhost:4000/posts/Sqli/" />
+    <author>
+      <name>IRVING  ST (ak) th3hostname</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+    <category term="Vuln" />
+    
+    <category term="Programacion" />
+    
+    <category term="bash" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Hackea sitios web  Explotando un (XSS) - (Cross-Site Scripting) 💀</title>
+    <link href="http://localhost:4000/posts/vuln-XSS/" rel="alternate" type="text/html" title="Hackea sitios web  Explotando un (XSS) - (Cross-Site Scripting) 💀" />
+    <published>2023-01-05T12:00:00+00:00</published>
+  
+    <updated>2023-01-09T08:42:36+00:00</updated>
+  
+    <id>http://localhost:4000/posts/vuln-XSS/</id>
+    <content src="http://localhost:4000/posts/vuln-XSS/" />
+    <author>
+      <name>IRVING  ST (ak) th3hostname</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+    <category term="Vuln" />
+    
+    <category term="Programacion" />
+    
+    <category term="bash" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname
+
+
+La razon  por  la cual decidi crear  este articulo  es  que  aprenda  a explotar   un  (Cross-Site Scripting)  en  paginas WEB entiendas  que es  un (Cross-Site Scripting), puedas crear  scripts  para la  automatizacion de  un  (Cross-Site Scripting)
+Primero  definamos   que es (XSS) o (Cross-Site Script...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Escala  privilegios en  linux  💀</title>
+    <link href="http://localhost:4000/posts/privilege_escalation/" rel="alternate" type="text/html" title="Escala  privilegios en  linux  💀" />
+    <published>2023-01-05T12:00:00+00:00</published>
+  
+    <updated>2023-01-05T12:00:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/privilege_escalation/</id>
+    <content src="http://localhost:4000/posts/privilege_escalation/" />
+    <author>
+      <name>IRVING  ST (ak) th3hostname</name>
+    </author>
+
+  
+    
+    <category term="Privilege escalation Linux" />
+    
+    <category term="Hacking" />
+    
+    <category term="OSCP" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Mapea  una  (RED) ☠</title>
+    <link href="http://localhost:4000/posts/scanning/" rel="alternate" type="text/html" title="Mapea  una  (RED) ☠" />
+    <published>2021-12-01T12:00:00+00:00</published>
+  
+    <updated>2021-12-01T12:00:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/scanning/</id>
+    <content src="http://localhost:4000/posts/scanning/" />
+    <author>
+      <name>IRVING  ST (ak) th3hostname</name>
+    </author>
+
+  
+    
+    <category term="Scaning" />
+    
+    <category term="Hacking" />
+    
+    <category term="Programacion" />
+    
+    <category term="bash" />
+    
+    <category term="bypassing" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname
+
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Tira  una pagina web  usando un (DoS) ☠</title>
+    <link href="http://localhost:4000/posts/Dos/" rel="alternate" type="text/html" title="Tira  una pagina web  usando un (DoS) ☠" />
+    <published>2021-12-01T12:00:00+00:00</published>
+  
+    <updated>2021-12-01T12:00:00+00:00</updated>
+  
+    <id>http://localhost:4000/posts/Dos/</id>
+    <content src="http://localhost:4000/posts/Dos/" />
+    <author>
+      <name>IRVING  ST (ak) th3hostname</name>
+    </author>
+
+  
+    
+    <category term="Hacking" />
+    
+    <category term="DoS" />
+    
+    <category term="Programacion" />
+    
+    <category term="bash" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname
+
+
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

